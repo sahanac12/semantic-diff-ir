@@ -1,0 +1,7 @@
+int process(int *arr) {
+    int sum = 0;
+    for (int i = 0; i < 512; i++)
+        if (arr[i] > 0)
+            sum += arr[i];
+    return sum;
+}
